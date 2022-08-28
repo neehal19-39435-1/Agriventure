@@ -91,6 +91,16 @@ public function signIn(Request $request){
         return redirect()->back()->with('failed', 'Invalid username or password');
     }
     }
+    public function logout(){
+        session()->forget('id');
+        session()->forget('name');
+        session()->forget('email');
+        session()->forget('phone');
+        session()->forget('address');
+        session()->forget('store');
+        return redirect()->route('farmerlogin');
+    }
+
 
 
 }

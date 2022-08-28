@@ -28,7 +28,7 @@ Route::get('/navbar', function () {
 })->name('navbar');
 
 Route::get('/dash', function () {
-    return view('Layouts.dashboard.dashboard');
+    return view('Farmer.homepage');
 })->name('dashboard')->middleware("farmerValid");
 
 Route::get('/product', function () {
@@ -49,3 +49,4 @@ Route::get('/delete/{id}',[ProductController::class, 'productdel'])->name('del')
 Route::get('/UpdateProduct',[ProductController::class, 'updatelist'])->name('UpdateProduct')->middleware('farmerValid');
 Route::get('/UpdateProduct/{id}',[ProductController::class, 'productUp'])->name('productUp')->middleware('farmerValid');
 Route::post('/ProductinfoUpdate',[ProductController::class, 'prodInfoUp'])->name('productInfoUp')->middleware('farmerValid');
+Route::get('/farmerLogout',[FarmerController::class, 'logout'])->name('farmerLogout')->middleware('farmerValid');
