@@ -1,4 +1,4 @@
-@extends('Layouts.dashboard.dashboard')
+@extends('Farmer.Layouts.dashboard.dashboard')
 @section('content')
 
 <head>
@@ -17,7 +17,7 @@ img {margin-bottom: -7px}
 <div class="w3-content" style="max-width:1500px">
 <h2 class="w3-wide text-center">About us</h2>
 <br>
-    <p class="w3-justify">Movement is what we power. It’s our lifeblood. It runs through our veins. It’s what gets us out of bed each morning. It pushes us to constantly reimagine how we can move better. For you. For all the places you want to go. For all the things you want to get. For all the ways you want to earn. Across the entire world. In real time. At the incredible speed of now.. Your ride is committing to becoming a fully electric, zero-emission platform by 2040, with 100% of rides taking place in zero-emission vehicles, on public transit, or with micromobility. It is our responsibility as the largest mobility platform in the world to more aggressively tackle the challenge of climate change. We will do this by offering riders more ways to ride green, helping drivers go electric, making transparency a priority and partnering with NGOs and the private sector to help expedite a clean and just energy transition.</p>
+    <p class="w3-justify">COVID has triggered and induced the supply demand challenges.Farmers had a huge loss all throughout. Agriculturalists / Farmers mostly of the Asian continent, encounter infrastructural problems, absence of farm labourers.One of the things we love about the best agricultural and farming websites online is that each one is unique.While some industries seem to have a go-to template for creating websites, the agricultural and farming world is happy to think outside of the box, reimagining the way that they can present their business to a much wider audience, including people who would have, before the internet, never even known they existed.</p>
     <br>
 <!-- Header -->
 <div class="w3-opacity">

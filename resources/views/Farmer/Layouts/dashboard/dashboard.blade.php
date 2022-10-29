@@ -100,11 +100,11 @@
 </head>
 <body>
 
-@include ('Layouts.navbar.navbar')
+@include ('Farmer.Layouts.navbar.navbar')
 <br><br>
 <div class='container-fluid mt-2'>
 	<div class='row'>
-	<div class='col-lg-3'>@include ('Layouts.sidebar.accordion')</div>
+	<div class='col-lg-3'>@include ('Farmer.Layouts.sidebar.accordion')</div>
 
 
 <div class="col-lg-9">@yield('content')</div>

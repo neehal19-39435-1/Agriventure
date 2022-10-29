@@ -1,4 +1,4 @@
-@extends('Layouts.dashboard.dashboard')
+@extends('Farmer.Layouts.dashboard.dashboard')
 @section('content')
 
 <body>
